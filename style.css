@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(32, 196, 236);
+}
+.card {
+  border-radius: 5%;
+}
+.result {
+  border-radius: 5%;
+}
+.bill {
+  width: 50%;
+}
+.result {
+  width: 50%;
+}
+#reset {
+  margin-top: 9rem;
+}
+@media only screen and (max-width: 767px) {
+  .bill {
+    width: 100%;
+  }
+  .result {
+    width: 100%;
+  }
+  #reset {
+    margin-top: auto;
+  }
+}
